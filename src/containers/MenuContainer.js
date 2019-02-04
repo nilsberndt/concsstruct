@@ -12,10 +12,10 @@ class MenuContainer extends Component {
   render() {
 
     return (
-    <div className="menu--container">
+      <div className="menu--container">
         <Blueprint />
         <BossMessage message={this.props.bossMessage} />
-    </div>
+      </div>
     );
   }
 }
@@ -26,4 +26,4 @@ const mapStateToProps = state => ({
   proceedButton: state.proceedButton
 });
 
-export default connect(mapStateToProps) (MenuContainer);
+export default connect(mapStateToProps)(MenuContainer);

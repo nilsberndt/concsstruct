@@ -9,20 +9,20 @@ class WorldContainer extends Component {
 
   render() {
     let completeStyle = "";
-    if (this.props.levelComplete){
+    if (this.props.levelComplete) {
       completeStyle = (<div className='world--container-dark'></div>);
-    }else{
+    } else {
       completeStyle = "";
     }
 
     return (
       <div className="world--container">
-      {completeStyle}
-      <LevelMarker text={this.props.levelMarkerText}/>
-      <BuildingRows 
-          exampleRow={this.props.exampleRow} 
-          userRow={this.props.userRow}/>
-      <Vehicles />
+        {completeStyle}
+        <LevelMarker text={this.props.levelMarkerText} />
+        <BuildingRows
+          exampleRow={this.props.exampleRow}
+          userRow={this.props.userRow} />
+        <Vehicles />
       </div>
     );
   }
@@ -35,4 +35,4 @@ const mapStateToProps = state => ({
   levelComplete: state.levelComplete
 });
 
-export default connect(mapStateToProps) (WorldContainer);
+export default connect(mapStateToProps)(WorldContainer);

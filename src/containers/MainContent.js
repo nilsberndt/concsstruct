@@ -6,10 +6,10 @@ import '../styles/app.scss';
 class MainContent extends Component {
   render() {
     return (
-    <div className="app--content">
+      <div className="app--content">
         <WorldContainer />
         <MenuContainer />
-    </div>
+      </div>
     );
   }
 }

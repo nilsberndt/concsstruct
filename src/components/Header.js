@@ -2,11 +2,7 @@ import React, { Component } from 'react';
 import logo from '../images/concsstruct-logo--header.svg';
 import '../styles/app.scss';
 
-
-
-
 class Header extends Component {
-
 
   render() {
 
@@ -17,6 +13,5 @@ class Header extends Component {
     );
   }
 }
-
 
 export default Header;

@@ -14,27 +14,31 @@ const initialState = {
   }
 }
 
-export default function indexReducer(state = initialState, action){
-  switch(action.type){
+export default function indexReducer(state = initialState, action) {
+  switch (action.type) {
     case UPDATE_BLUEPRINT:
-      return { ...state, userRow: action.userRow};
+      return { ...state, userRow: action.userRow };
     case COMPLETE_LEVEL:
-      return { ...state,
-          bossMessage: action.bossMessage,
-          levelComplete: action.levelComplete,
-          levelMarkerText: action.levelMarkerText,
-          proceedButton: action.proceedButton};
+      return {
+        ...state,
+        bossMessage: action.bossMessage,
+        levelComplete: action.levelComplete,
+        levelMarkerText: action.levelMarkerText,
+        proceedButton: action.proceedButton
+      };
     case ADVANCE_LEVEL:
-      return { ...state,
-          level: action.level,
-          userRow: action.userRow,
-          exampleRow: action.exampleRow,
-          bossMessage: action.bossMessage,
-          levelComplete: action.levelComplete,
-          levelMarkerText: action.levelMarkerText,
-          proceedButton: action.proceedButton};
+      return {
+        ...state,
+        level: action.level,
+        userRow: action.userRow,
+        exampleRow: action.exampleRow,
+        bossMessage: action.bossMessage,
+        levelComplete: action.levelComplete,
+        levelMarkerText: action.levelMarkerText,
+        proceedButton: action.proceedButton
+      };
     default:
       return state;
   }
-  
+
 }

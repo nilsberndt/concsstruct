@@ -9,12 +9,12 @@ class BossMessage extends Component {
 
   constructor(props) {
     super(props);
-    
+
     this.onAdvanceLevel = this.onAdvanceLevel.bind(this);
     this.handleClick = this.handleClick.bind(this);
   }
 
-  onAdvanceLevel(level){
+  onAdvanceLevel(level) {
     this.props.onAdvanceLevel(level);
   }
 
@@ -22,27 +22,27 @@ class BossMessage extends Component {
     e.preventDefault();
     this.onAdvanceLevel(this.props.level);
   }
-  
+
 
   render() {
 
     return (
       <div className="menu--boss-message-container">
-				<div className="menu--boss-message__text-container">
+        <div className="menu--boss-message__text-container">
           <div className="menu--boss-message__text">
-            <div dangerouslySetInnerHTML={{ __html: this.props.message}} />
+            <div dangerouslySetInnerHTML={{ __html: this.props.message }} />
             <button
-                style={this.props.proceedButton}
-                onClick={this.handleClick}>CONTINUE</button>
+              style={this.props.proceedButton}
+              onClick={this.handleClick}>CONTINUE</button>
           </div>
         </div>
-				  <img src={boss} className="menu--boss-message__boss" alt="The Boss" />
+        <img src={boss} className="menu--boss-message__boss" alt="The Boss" />
       </div>
     );
   }
 
 
-} 
+}
 
 const mapActionsToProps = {
   onAdvanceLevel: advanceLevel
@@ -53,4 +53,4 @@ const mapStateToProps = state => ({
   proceedButton: state.proceedButton
 });
 
-export default connect(mapStateToProps, mapActionsToProps) (BossMessage);
+export default connect(mapStateToProps, mapActionsToProps)(BossMessage);

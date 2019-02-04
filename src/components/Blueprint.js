@@ -7,26 +7,26 @@ class Blueprint extends Component {
 
   constructor(props) {
     super(props);
-    
+
     this.onCompleteLevel = this.onCompleteLevel.bind(this);
     this.onUpdateBlueprint = this.onUpdateBlueprint.bind(this);
   }
-  
 
-  onUpdateBlueprint(event){
+
+  onUpdateBlueprint(event) {
     this.props.onUpdateBlueprint(event.target.value.toString());
     console.log(this.props.levelComplete);
-    if (event.target.value.trim().replace(/[\n\f\r\t]/g, "") === this.props.exampleRow.trim().replace(/[\n\f\r\t]/g, "") 
-        && !this.props.levelComplete){
+    if (event.target.value.trim().replace(/[\n\f\r\t]/g, "") === this.props.exampleRow.trim().replace(/[\n\f\r\t]/g, "")
+      && !this.props.levelComplete) {
       setTimeout(() => this.onCompleteLevel(this.props.level), 200);
     }
   }
 
-  onCompleteLevel(level){
+  onCompleteLevel(level) {
     this.props.onCompleteLevel(level);
   }
 
- 
+
 
 
   render() {
@@ -35,7 +35,7 @@ class Blueprint extends Component {
         <textarea
           className="menu--blueprint__textarea"
           value={this.props.userRow}
-          rows = "7"
+          rows="7"
           spellCheck="false"
           maxLength="1500"
           onChange={this.onUpdateBlueprint} />
@@ -57,5 +57,5 @@ const mapActionsToProps = {
   onCompleteLevel: completeLevel
 };
 
-export default connect(mapStateToProps, mapActionsToProps) (Blueprint);
+export default connect(mapStateToProps, mapActionsToProps)(Blueprint);
 
