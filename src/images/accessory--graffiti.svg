@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg8" width="500" height="500" version="1.1" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs id="defs16082">
+  <linearGradient id="linearGradient16988" x1="126.6" x2="146.71" y1="66.195" y2="66.195" gradientTransform="matrix(1 -.14234 0 1.2396 .65253 6.7303)" gradientUnits="userSpaceOnUse">
+   <stop id="stop16982" stop-color="#9b6d3d" offset="0"/>
+   <stop id="stop16984" stop-color="#5f8832" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient16996" x1="147.98" x2="167.81" y1="66.277" y2="66.277" gradientTransform="matrix(1 -.14234 0 1.2396 .65253 6.7303)" gradientUnits="userSpaceOnUse">
+   <stop id="stop16990" stop-color="#78a133" offset="0"/>
+   <stop id="stop16992" stop-color="#ba3d3d" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient17004" x1="168.68" x2="188.51" y1="66.277" y2="66.277" gradientTransform="matrix(1 -.14234 0 1.2396 .65253 6.7303)" gradientUnits="userSpaceOnUse">
+   <stop id="stop16998" stop-color="#892626" offset="0"/>
+   <stop id="stop17000" stop-color="#c54fe6" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient17012" x1="190.19" x2="210.31" y1="66.195" y2="66.195" gradientTransform="matrix(1 -.14234 0 1.2396 .65253 6.7303)" gradientUnits="userSpaceOnUse">
+   <stop id="stop17006" stop-color="#912f9f" offset="0"/>
+   <stop id="stop17008" stop-color="#348dbe" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient17020" x1="212.18" x2="232.42" y1="66.162" y2="66.162" gradientTransform="matrix(1 -.14234 0 1.2396 .65253 6.7303)" gradientUnits="userSpaceOnUse">
+   <stop id="stop17014" stop-color="#4265c8" offset="0"/>
+   <stop id="stop17016" stop-color="#5fa047" offset="1"/>
+  </linearGradient>
+ </defs>
+ <metadata id="metadata5">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g id="text16709" transform="matrix(1.1947 0 0 1.9354 -24.643 -4.1139)" aria-label="CSSCO">
+  <g id="g17035" transform="matrix(.48044 -.36782 0 .61923 213.55 228.66)" stroke="#fff">
+   <path id="path16711" d="m146.96 65.484c-2.7409 0.39015-5.4818 0.78029-8.2227 1.1704-4.9062-3.5327-5.856 10.527-0.70254 8.1288 4.1202-3.5747 11.118 0.81428 8.9134 7.2231-3.0452 9.0091-14.486 11.556-17.895 3.4294-3.1751-7.8806-1.2092-17.533-1.075-26.336 0.88471-6.4225 6.3725-11.646 11.377-10.623 4.6558 0.4046 8.4078 5.4363 7.9327 11.458 0.0629 1.8335-0.0761 3.6989-0.32844 5.5496z" fill="url(#linearGradient16988)" stroke-width="3.6611"/>
+   <g stroke-width="2.6849">
+    <path id="path16713" d="m167.37 57.349c-5.0893-4.0179-6.957 10.061-1.1751 8.574 4.2294 5.4935 2.4016 17.28-4.2964 20.279-4.7387 2.6677-11.043 0.85658-12.514-5.2538 0.055-4.8059 7.1108-8.0453 4.6177-12.732-4.0196-2.7348-6.9769-9.3227-4.4181-15.397 3.3653-8.184 14.051-10.371 17.15-2.4951 0.81903 2.0833 1.3021 4.5678 0.63612 7.0255z" fill="url(#linearGradient16996)"/>
+    <path id="path16715" d="m188.07 54.402c-5.0893-4.0179-6.9569 10.061-1.1751 8.574 4.2294 5.4935 2.4016 17.28-4.2964 20.279-4.7387 2.6677-11.043 0.85657-12.514-5.2538 0.055-4.8059 7.1108-8.0453 4.6177-12.732-4.0196-2.7348-6.9769-9.3228-4.4181-15.397 3.3653-8.184 14.051-10.371 17.149-2.495 0.81902 2.0833 1.3021 4.5678 0.6361 7.0255z" fill="url(#linearGradient17004)"/>
+    <path id="path16717" d="m210.55 56.432c-2.7409 0.39015-5.4818 0.78029-8.2227 1.1704-4.9062-3.5327-5.856 10.527-0.70254 8.1288 4.1202-3.5747 11.118 0.81428 8.9134 7.2231-3.0452 9.0091-14.486 11.556-17.895 3.4294-3.1751-7.8806-1.2092-17.533-1.075-26.336 0.88471-6.4225 6.3725-11.646 11.377-10.623 4.6558 0.4046 8.4078 5.4363 7.9327 11.458 0.0629 1.8335-0.0761 3.6989-0.32844 5.5496z" fill="url(#linearGradient17012)"/>
+    <path id="path16719" d="m232.33 59.192c3.6419 9.2367-6.8236 22.557-14.228 17.673-4.2537-2.8061-6.3161-9.5995-4.7477-15.805-0.28896-7.1168-0.86127-15.453 3.5781-21.624 6.1821-6.9054 16.818-0.78677 15.529 9.0726 0.0484 3.5498-0.38613 7.1648-0.13159 10.683zm-8.2226-11.71c-3.8238 4.3537-4.2653 11.353-2.8663 16.612 5.6141-3.3563 2.0886-11.328 2.8663-16.612z" fill="url(#linearGradient17020)"/>
+   </g>
+  </g>
+ </g>
+</svg>

@@ -1,0 +1,134 @@
+.world--container{
+  align-items:center;
+  justify-items: center;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  grid-area: buildingArea;
+  background-image: $skyline;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #b49d77;
+  display: grid;
+  grid-template-areas:
+  "levelMarkerArea"
+  "rowContainerArea"
+  "carContainerArea";
+  grid-template-rows: 15% 70% 15%;
+  grid-template-columns: 100%;
+  z-index: 0;
+}
+
+.world--container-dark{
+  box-sizing: border-box;
+  position:fixed;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #00000090;
+  background-size: cover;
+  z-index: 8;
+}
+
+.world--level-marker{
+  align-self: center;
+  grid-area: levelMarkerArea;
+  display: grid;
+  z-index: 10;
+}
+
+h2#levelMarkerText{
+  font-size: calc(2vh + 2vw);
+  text-shadow: 0 0.1em 0.4em #000000;
+}
+
+.world--vehicle-container{
+  align-items: center;
+  height: 100%;
+  -webkit-width: 100%;
+  width: 100vw;
+  z-index: 2;
+}
+
+.world--vehicle{
+  height: 100%;
+  width: auto;
+  background-color: transparent;
+  z-index: 3;
+}
+
+.world--vehicle--drive-left-1{
+  animation: driveLeft1 25s ease infinite;
+  animation-fill-mode: backwards;
+}
+
+.world--vehicle--drive-left-2{
+  animation: driveLeft2 25s ease 10s infinite;
+  animation-fill-mode: backwards;
+}
+
+.world--vehicle--drive-right-1{
+  animation: driveRight1 25s ease-in-out 5s infinite;
+  animation-fill-mode: backwards;
+}
+
+.world--vehicle--drive-right-2{
+  animation: driveRight2 25s ease-in-out 15s infinite;
+  animation-fill-mode: backwards;
+}
+
+.world--vehicle--drive-right-3{
+  animation: driveRight2 25s ease-in-out 25s infinite;
+  animation-fill-mode: backwards;
+}
+
+@keyframes driveLeft1{
+  from {transform: translateX(80vw);}
+  to {transform: translateX(-120vw);}
+}
+
+@keyframes driveLeft2{
+  from {transform: translateX(80vw);}
+  to {transform: translateX(-175vw);}
+}
+
+@keyframes driveRight1{
+  from {transform: translateX(-80vw);}
+  to {transform: translateX(120vw);}
+}
+
+@keyframes driveRight2{
+  from {transform: translateX(-80vw);}
+  to {transform: translateX(175vw);}
+}
+
+@keyframes driveRight3{
+  from {transform: translateX(-80vw);}
+  to {transform: translateX(200vw);}
+}
+
+@media (orientation: landscape){
+
+  .world--container{
+    grid-template-rows: 35% 50% 15%;
+  }
+
+  .world--container-dark{
+    -webkit-max-width: 50%;
+    max-width: 50vw;
+  }
+
+  .world--vehicle-container{
+    -webkit-max-width: 50%;
+    max-width: 50vw;
+  }
+}
+
+@media (max-width: 1200px){
+  body{
+    position: fixed;
+  }
+}
+

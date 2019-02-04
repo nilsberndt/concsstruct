@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg8" width="500" height="500" version="1.1" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata id="metadata5">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g id="layer1" transform="translate(0,-573.6)">
+  <g id="mainHouseBlock" transform="translate(10.38 -188.27)">
+   <g id="g6457" transform="translate(439.09 18.773)">
+    <g id="g7814" transform="translate(-12.69 193.63)">
+     <rect id="mainHouseWallNorth" x="-248.42" y="813.89" width="180.43" height="90.217" fill="#57819f"/>
+     <rect id="mainHouseWallWest" transform="matrix(.70711 -.70711 0 1 0 0)" x="-417.02" y="565.46" width="65.69" height="90.722" fill="#7ea0b8"/>
+     <rect id="mainHousePorchFloor" transform="matrix(1 0 -.70549 .70872 0 0)" x="652.06" y="1276.4" width="180.13" height="95.472" fill="#5f717e" fill-opacity=".84593"/>
+     <g id="mainHouseWallSouth">
+      <rect id="rect4579-5-3-58-1" x="-294.87" y="860.34" width="180.43" height="90.217" fill="#3c5567"/>
+      <rect id="rect5315-3-5-6-7" transform="matrix(.70215 -.71203 0 1 0 0)" x="-451.16" y="608.44" width="31.194" height="43.591" fill="#385366"/>
+     </g>
+     <g id="g5872-8" transform="translate(338.46 249.18)">
+      <rect id="rect4579-5-2-7-9-1-4-6-0-9" x="-494.16" y="652.01" width="25.099" height="16.759" fill="#6ab0b8" stroke="#d9c091" stroke-width="2.5796"/>
+      <rect id="rect4579-5-2-7-9-1-4-6-8" x="-494.03" y="633.71" width="25.099" height="16.759" fill="#6ab0b8" stroke="#e8d9bc" stroke-width="2.5796"/>
+      <rect id="mainHouseWindowSE" x="-497.54" y="630.17" width="32.04" height="41.147" fill="none" stroke="#2f363b" stroke-width="4.5668"/>
+     </g>
+     <rect id="mainHousePorchPillarW" transform="matrix(.63752 -.77044 0 1 0 0)" x="-478.05" y="513.93" width="8.907" height="63.196" fill="#7ea0b8"/>
+     <rect id="mainHouseFrontDoor" x="-222.25" y="882.86" width="35.179" height="66.25" fill="#1d1911" stroke="#2f363b" stroke-width="4"/>
+     <g id="mainHousePorchFront" fill="#57819f">
+      <rect id="rect4579-5-3-58-1-1" x="-316.78" y="882.58" width="12.749" height="49.811"/>
+      <rect id="rect4579-5-3-58-1-1-5" x="-149.09" y="881.34" width="12.749" height="49.811"/>
+      <rect id="rect5315-30" x="-316.78" y="929.66" width="58.485" height="43.614"/>
+      <rect id="rect5315" x="-194.83" y="929.15" width="58.485" height="43.614"/>
+     </g>
+     <circle id="path5788" cx="-215.83" cy="918.4" r="2.7679" fill="#cab230"/>
+     <g id="g5872" transform="translate(214.97 251.14)">
+      <rect id="rect4579-5-2-7-9-1-4-6-0" x="-494.16" y="652.01" width="25.099" height="16.759" fill="#6ab0b8" stroke="#d9c091" stroke-width="2.5796"/>
+      <rect id="rect4579-5-2-7-9-1-4-6" x="-494.03" y="633.71" width="25.099" height="16.759" fill="#6ab0b8" stroke="#e8d9bc" stroke-width="2.5796"/>
+      <rect id="rect4579-5-2-7-9-1-4" x="-497.54" y="630.17" width="32.04" height="41.147" fill="none" stroke="#2f363b" stroke-width="4.5668"/>
+     </g>
+     <g id="mainHouseWallEast" fill="#7ea0b8">
+      <path id="rect4579-5-5-4-1" transform="matrix(.70711 -.70711 0 1 0 0)" d="m-161.84 745.9h65.69v90.722h-65.69zm-30.978 46.928 30.975-0.3082v44.095l-30.975 0.3082zm5e-3 -48.012 8.0304-1.1839v63.196l-8.0304 1.1839z" fill="#7ea0b8"/>
+     </g>
+     <g id="g5872-8-9" transform="matrix(.41686 -.36451 0 .92181 109.51 102.49)">
+      <rect id="rect4579-5-2-7-9-1-4-6-0-9-0" x="-494.16" y="652.01" width="25.099" height="16.759" fill="#6ab0b8" stroke="#d9c091" stroke-width="2.5796"/>
+      <rect id="rect4579-5-2-7-9-1-4-6-8-2" x="-494.03" y="633.71" width="25.099" height="16.759" fill="#6ab0b8" stroke="#e8d9bc" stroke-width="2.5796"/>
+      <rect id="mainHouseWindowE" x="-497.54" y="630.17" width="32.04" height="41.147" fill="none" stroke="#2f363b" stroke-width="4.5668"/>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>

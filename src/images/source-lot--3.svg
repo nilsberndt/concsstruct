@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg8" width="500" height="500" version="1.1" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <defs id="defs826">
+  <filter id="filter1506" x="-.012864" y="-.047052" width="1.0257" height="1.0941" color-interpolation-filters="sRGB">
+   <feGaussianBlur id="feGaussianBlur1508" stdDeviation="3.7064002"/>
+  </filter>
+  <filter id="filter1618" x="-.033954" y="-.49966" width="1.0679" height="1.9993" color-interpolation-filters="sRGB">
+   <feGaussianBlur id="feGaussianBlur1620" stdDeviation="7.2659065"/>
+  </filter>
+ </defs>
+ <metadata id="metadata5">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g id="layer1" transform="translate(0,-577.6)">
+  <text id="text1451-8" transform="matrix(1.022 0 -.51245 .36329 516.63 651.4)" x="99.639244" y="1020.1586" fill="#2a1e00" fill-opacity=".27907" filter="url(#filter1618)" font-family="sans-serif" font-size="45.091px" letter-spacing="0px" stroke-width="1.1273" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan id="tspan1449-2" x="99.639244" y="1020.1586" fill="#2a1e00" fill-opacity=".27907" font-family="'Josefin Sans'" font-weight="bold" stroke-width="1.1273">EXAMPLE #3</tspan></text>
+  <rect id="groundZone-7-5" transform="matrix(1 0 -.70549 .70872 -65.893 323.02)" x="820.48" y="873.2" width="356.69" height="189.06" fill="none" filter="url(#filter1506)" stroke="#2a0000" stroke-opacity=".56105" stroke-width="5.8266"/>
+  <rect id="groundZone-7" transform="matrix(1 0 -.70549 .70872 0 0)" x="1072.1" y="1323.3" width="356.69" height="189.06" fill="#2ff0ff" fill-opacity=".17442" stroke="#ffbf1f" stroke-width="5.8266"/>
+  <text id="text1451" x="98.391472" y="1020.1802" fill="#ffb701" font-family="sans-serif" font-size="45.091px" letter-spacing="0px" stroke-width="1.1273" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan id="tspan1449" x="98.391472" y="1020.1802" fill="#ffb701" font-family="'Josefin Sans'" font-weight="bold" stroke-width="1.1273">EXAMPLE #3</tspan></text>
+ </g>
+</svg>

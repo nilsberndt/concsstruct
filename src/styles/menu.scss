@@ -1,0 +1,100 @@
+.menu--container{
+    background-image: linear-gradient(-45deg, #3a4352, #393939);
+    display: grid;
+    align-items: center;
+    justify-self: center;
+    justify-items: center;
+    height: 100%;
+    width: 100%;
+    grid-area: menuArea;
+    grid-template-areas:
+    "."
+    "blueprintArea"
+    "bossMessageArea"
+    ".";
+    grid-template-rows: 1% 45% 50% 4%;
+    box-shadow: -0.2em -0.4em 0.6em #00000060;
+    z-index: 2;
+}
+
+.menu--boss-message-container{
+    align-self: center;
+    justify-self: center;
+    justify-items: center;
+    width: 80%;
+    height: 100%;
+    display: grid;
+    grid-template-areas:
+    "bossMessageBossArea bossMessageTextArea";
+    grid-area: bossMessageArea;
+    grid-template-columns: 25% 75%;
+    background-color: #dfdfdf;
+    background-image: linear-gradient(transparent, transparent, #00000040);
+    box-sizing: border-box;
+    box-shadow: 0 0.2em 0.8em #00000060;
+}
+  
+.menu--blueprint-container{
+    width:100%;
+    max-height: 100%;
+    align-self: center;
+    justify-self: center;
+    display: grid;
+    grid-area: blueprintArea;
+}
+  
+textarea.menu--blueprint__textarea{
+    justify-self: center;
+    align-self: center;
+    width: 80%;
+    height: 100%;
+    padding: 1em;
+    font-family: monospace;
+    background-color: #31406b;
+    border: none;
+    color: white;
+    font-size: calc(0.75vw + 0.75vh);
+    box-shadow: 0 0.2em 0.8em #00000060;
+}
+  
+  
+.menu--boss-message__text-container{
+    overflow: auto;
+    text-align: justify-center;
+    align-self: center;
+    align-items: start;
+    max-height: 100%;
+    width: 100%;
+    display: grid;
+    grid-area: bossMessageTextArea;
+}
+
+.menu--boss-message__text{
+    color: #141a2b;
+    font-size: calc(0.70vh + 0.70vw);
+    line-height: 2;
+    padding: 2em;
+}
+  
+.menu--boss-message__boss{
+    justify-self: end;
+    height: 100%;
+    max-width: 100%;
+    display: grid;
+    grid-area: bossMessageBossArea;
+}
+
+@media (orientation: landscape) {
+  textarea.menu--blueprint__textarea{
+    width: 90%;
+    height: 150%;
+    font-size: calc(0.6vw + 0.6vh);
+  }
+
+  .menu--boss-message-container{
+    width: 90%;
+    height: 80%;
+}
+
+
+}

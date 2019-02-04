@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg8" width="450" height="120" version="1.1" viewBox="0 0 450 120" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <defs id="defs2">
+  <style id="style12934">@keyframes talk{
+      50% {transform: translate(-4%, 0);}
+     }
+     #cloud1{
+      animation: talk 4.5s linear infinite;
+     }
+     #cloud2{
+      animation: talk 2s linear infinite;
+     }
+     #cloud3{
+      animation: talk 3s linear infinite;
+     }</style>
+  <filter id="filter17161-7" x="-.097149" y="-.10319" width="1.1943" height="1.2064" color-interpolation-filters="sRGB">
+   <feGaussianBlur id="feGaussianBlur17163-1" stdDeviation="7.6096543"/>
+  </filter>
+ </defs>
+ <metadata id="metadata5">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g id="layer1" transform="translate(0,-887.42)">
+  <g id="g36" transform="matrix(.98317 0 0 .98317 -918.09 638.31)" fill="#fff" fill-opacity=".79651">
+   <path id="path17131-4" transform="matrix(1.748 0 0 .5478 -1379.7 254.51)" d="m1538.8 64.471c9.247 10.747-22.827 15.584-17.516 27.678 5.3112 12.094 28.494 7.9518 26.392 21.664-2.1013 13.712-27.513 19.117-34.54 31.628-7.0267 12.511 19.492 14.78 9.2247 24.613s-22.776 1.7731-35.712 5.264-3.6451 18.687-16.949 19.796c-13.304 1.1088-31.394-11.753-43.37-17.464s-19.906 26.671-30.161 17.438c-10.255-9.2331 6.0735-33.968-3.4901-44.12-9.5637-10.152-25.342 1.3635-29.463-11.636-4.1211-12.999 27.055-15.094 26.336-28.247-0.7187-13.153-35.253-23.24-28.969-35.174 6.2842-11.934 39.594-13.039 49.296-22.243 9.7024-9.2044-15.949-29.581-3.4484-33.362 12.501-3.7807 32.739 13.372 46.383 14.146s23.145-15.791 35.899-12.798 3.3215 25.561 13.636 34.666c10.314 9.1042 27.203-2.598 36.45 8.1491z" fill="#fff" fill-opacity=".79651" filter="url(#filter17161-7)"/>
+  </g>
+ </g>
+</svg>
