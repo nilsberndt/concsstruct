@@ -22,7 +22,7 @@
 
 .world--container-dark{
   box-sizing: border-box;
-  position:fixed;
+  position: absolute;
   padding: 0;
   margin: 0;
   width: 100%;
@@ -41,7 +41,7 @@
 
 h2#levelMarkerText{
   font-size: calc(2vh + 2vw);
-  text-shadow: 0 0.1em 0.4em #000000;
+  text-shadow: 0 0.1em 0.4em #344d7c;
 }
 
 .world--vehicle-container{

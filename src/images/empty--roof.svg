@@ -12,13 +12,16 @@
  </metadata>
  <g id="g5161" transform="translate(463.05 -413.96)">
   <g id="g5102" transform="matrix(.45109 0 0 .45109 454.33 530.35)">
-   <rect id="rect4579-5-3-2-0-9-3" transform="matrix(1 0 -.70549 .70872 0 0)" x="-1287.7" y="467.72" width="399.32" height="211.65" fill="#6e7435" fill-opacity=".84593"/>
-   <g fill-opacity=".39216">
-    <rect id="rect4579-5-3-9-4" x="-1617.7" y="131.48" width="400" height="200" fill="#203632"/>
-    <rect id="rect4579-5-5-6-6" transform="matrix(.70711 -.70711 0 1 0 0)" x="-2499.9" y="-1486.2" width="212.13" height="200" fill="#385e57"/>
-    <rect id="rect4579-5-5-4-4" transform="matrix(.70711 -.70711 0 1 0 0)" x="-1934.2" y="-1086.2" width="212.13" height="200" fill="#385e57"/>
-    <rect id="rect4579-5-3-5" x="-1767.7" y="281.48" width="400" height="200" fill="#203633"/>
+   <rect id="rect4579-5-3-2-0-9-3" transform="matrix(1 0 -.70549 .70872 0 0)" x="-1287.7" y="467.72" width="399.32" height="211.65" fill="#454734" fill-opacity=".84593"/>
+   <g id="g7748">
+    <g fill-opacity=".5098">
+     <rect id="rect4579-5-3-9-4" x="-1617.7" y="131.48" width="400" height="200" fill="#749fa8"/>
+     <rect id="rect4579-5-5-6-6" transform="matrix(.70711 -.70711 0 1 0 0)" x="-2499.9" y="-1486.2" width="212.13" height="200" fill="#9dbbc1"/>
+     <rect id="rect4579-5-5-4-4" transform="matrix(.70711 -.70711 0 1 0 0)" x="-1934.2" y="-1086.2" width="212.13" height="200" fill="#9dbbc1"/>
+    </g>
+    <rect id="rect4579-5-3-5" x="-1767" y="281.48" width="400" height="200" fill="#749fa8" fill-opacity=".5098"/>
    </g>
+   <rect id="rect4579-5-3-2-0-9-3-7" transform="matrix(1 0 -.70549 .70872 0 0)" x="-1486.8" y="185.53" width="399.32" height="211.65" fill="#d5e2e4" fill-opacity=".59593"/>
   </g>
  </g>
 </svg>

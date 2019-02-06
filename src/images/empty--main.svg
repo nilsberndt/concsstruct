@@ -11,12 +11,23 @@
   </rdf:RDF>
  </metadata>
  <g id="g5153" transform="translate(73.049 -340.75)">
-  <rect id="rect4579-5-3-2-0-9" transform="matrix(1 0 -.70549 .70872 0 0)" x="808.32" y="983.3" width="180.13" height="95.472" fill="#6e7435" fill-opacity=".84593"/>
-  <g fill-opacity=".39216">
-   <rect id="rect4579-5-3-9" x="114.62" y="606.66" width="180.43" height="90.217" fill="#363220"/>
-   <rect id="rect4579-5-5-6" transform="matrix(.70711 -.70711 0 1 0 0)" x="66.401" y="721.28" width="95.69" height="90.217" fill="#68613e"/>
-   <rect id="rect4579-5-5-4" transform="matrix(.70711 -.70711 0 1 0 0)" x="321.57" y="901.72" width="95.69" height="90.217" fill="#68603e"/>
-   <rect id="rect4579-5-3" x="46.953" y="674.33" width="180.43" height="90.217" fill="#363220"/>
+  <rect id="rect4579-5-3-2-0-9" transform="matrix(1 0 -.70549 .70872 0 0)" x="808.32" y="983.3" width="180.13" height="95.472" fill="#3f4126" fill-opacity=".84593"/>
+  <rect id="rect4579-5-3-9" x="114.31" y="606.67" width="180.43" height="90.217" fill="#749fa8" fill-opacity=".5098"/>
+  <rect id="rect4579-5-5-6" transform="matrix(.70711 -.70711 0 1 0 0)" x="65.965" y="720.98" width="95.69" height="90.217" fill="#9dbbc1" fill-opacity=".5098"/>
+  <g id="g7696" transform="translate(-52.746 189.41)" fill-opacity=".84706">
+   <rect id="rect4579-5-5-4-0" transform="matrix(.70711 -.70711 0 1 0 0)" x="397.14" y="827.16" width="91.453" height="25.798" fill="#705321"/>
+   <rect id="rect4579-5-3-6" x="251.13" y="546.34" width="29.691" height="25.798" fill="#564019" stroke-width=".21692"/>
+   <rect id="rect4579-5-3-2-0-9-1" transform="matrix(1 0 -.70549 .70872 0 0)" x="794.98" y="679.64" width="29.691" height="91.245" fill="#a0772f"/>
   </g>
+  <rect id="rect4579-5-5-4" transform="matrix(.70711 -.70711 0 1 0 0)" x="321.14" y="901.41" width="95.69" height="90.217" fill="#9dbbc1" fill-opacity=".5098"/>
+  <g id="g7696-9" transform="translate(-68.158 -71.626)">
+   <g id="g7725" transform="translate(-135.72 264.04)">
+    <rect id="rect4579-5-5-4-0-0" transform="matrix(.70711 -.70711 0 1 0 0)" x="397.14" y="827.16" width="91.453" height="25.798" fill="#705321"/>
+    <rect id="rect4579-5-3-6-6" x="251.13" y="546.34" width="29.691" height="25.798" fill="#564019" stroke-width=".21692"/>
+    <rect id="rect4579-5-3-2-0-9-1-0" transform="matrix(1 0 -.70549 .70872 0 0)" x="794.98" y="679.64" width="29.691" height="91.245" fill="#a0772f"/>
+   </g>
+  </g>
+  <rect id="rect4579-5-3" x="46.645" y="674.33" width="180.43" height="90.217" fill="#749fa8" fill-opacity=".5098"/>
+  <rect id="rect4579-5-3-0" x="114.42" y="693.58" width="38.176" height="70.973" fill="#a0ced9" fill-opacity=".24709" stroke="#dae7f0" stroke-opacity=".52326" stroke-width=".40798"/>
  </g>
 </svg>

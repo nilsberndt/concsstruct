@@ -27,11 +27,12 @@
    <feGaussianBlur id="feGaussianBlur7767-8" stdDeviation="1.8320864"/>
   </filter>
    <style id="style1457">@keyframes talk{
-      0% {transform: translateY(0);}
-      50% {transform: translateY(2.5%);}
-      100% {transform: translate(0);}
+      0% {-webkit-transform: translateY(0.1%);transform: translateY(0.1%);}
+      50% {-webkit-transform: translateY(2.5%);transform: translateY(2.5%);}
+      100% {-webkit-transform: translateY(0.1%);transform: translateY(0.1%);}
      }
      #jaw{
+      -webkit-animation: talk 1.5s linear infinite;
       animation: talk 1.5s linear infinite;
      }</style>
  </defs>

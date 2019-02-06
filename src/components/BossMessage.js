@@ -31,12 +31,14 @@ class BossMessage extends Component {
         <div className="menu--boss-message__text-container">
           <div className="menu--boss-message__text">
             <div dangerouslySetInnerHTML={{ __html: this.props.message }} />
-            <button
+          </div>
+          <button
               style={this.props.proceedButton}
               onClick={this.handleClick}>CONTINUE</button>
-          </div>
         </div>
-        <img src={boss} className="menu--boss-message__boss" alt="The Boss" />
+        <div className="menu--boss-message__boss-container">
+          <img src={boss} className="menu--boss-message__boss" alt="The Boss" />
+        </div>
       </div>
     );
   }

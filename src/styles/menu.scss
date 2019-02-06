@@ -28,6 +28,7 @@
     "bossMessageBossArea bossMessageTextArea";
     grid-area: bossMessageArea;
     grid-template-columns: 25% 75%;
+    grid-template-rows: 100%;
     background-color: #dfdfdf;
     background-image: linear-gradient(transparent, transparent, #00000040);
     box-sizing: border-box;
@@ -46,21 +47,24 @@
 textarea.menu--blueprint__textarea{
     justify-self: center;
     align-self: center;
-    width: 80%;
+    min-width: 80%;
+    max-width: 95%;
     height: 100%;
     padding: 1em;
     font-family: monospace;
     background-color: #31406b;
     border: none;
     color: white;
-    font-size: calc(0.75vw + 0.75vh);
+    font-size: calc(0.95vw + 0.95vh);
     box-shadow: 0 0.2em 0.8em #00000060;
 }
   
   
 .menu--boss-message__text-container{
     overflow: auto;
-    text-align: justify-center;
+    -webkit-overflow-scrolling: touch;
+    padding: 0.5em;
+    text-align: left;
     align-self: center;
     align-items: start;
     max-height: 100%;
@@ -71,24 +75,30 @@ textarea.menu--blueprint__textarea{
 
 .menu--boss-message__text{
     color: #141a2b;
-    font-size: calc(0.70vh + 0.70vw);
+    font-size: calc(0.80vh + 0.80vw);
     line-height: 2;
-    padding: 2em;
+}
+  
+.menu--boss-message__boss-container{
+    justify-items: center;
+    align-self: center;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-area: bossMessageBossArea;
 }
   
 .menu--boss-message__boss{
-    justify-self: end;
-    height: 100%;
-    max-width: 100%;
-    display: grid;
-    grid-area: bossMessageBossArea;
+  padding: 0.5em;
+  width: 100%;
+  height: 100%;
 }
 
 @media (orientation: landscape) {
   textarea.menu--blueprint__textarea{
     width: 90%;
     height: 150%;
-    font-size: calc(0.6vw + 0.6vh);
+    font-size: calc(0.75vw + 0.75vh);
   }
 
   .menu--boss-message-container{

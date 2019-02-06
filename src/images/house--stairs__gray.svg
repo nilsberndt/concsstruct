@@ -10,48 +10,48 @@
    </cc:Work>
   </rdf:RDF>
  </metadata>
- <g id="g5396-1" transform="translate(431.3 -586.64)">
-  <g>
-   <rect id="rect5315-3-3" x="-333.36" y="1033.2" width="58.485" height="43.631" fill="#191919"/>
-   <rect id="rect5315-3-5-5" transform="matrix(.69402 -.71996 0 1 0 0)" x="-396.06" y="748.07" width="31.133" height="43.631" fill="#3a3a3a"/>
-   <rect id="rect5315-3-8-8" transform="matrix(1 0 -.69772 .71637 0 0)" x="672.95" y="1411.3" width="58.485" height="30.968" fill="#555"/>
+ <g id="g5396-1" transform="translate(431.3,-586.64)">
+  <g id="g890">
+   <rect id="rect5315-3-3" x="-333.36" y="1033.2" width="58.485" height="43.631" fill="#686868"/>
+   <rect id="rect5315-3-5-5" transform="matrix(.69402 -.71996 0 1 0 0)" x="-396.06" y="748.07" width="31.133" height="43.631" fill="#919191"/>
+   <rect id="rect5315-3-8-8" transform="matrix(1 0 -.69772 .71637 0 0)" x="672.95" y="1411.3" width="58.485" height="30.968" fill="#b1b1b1"/>
   </g>
   <rect id="rect5315-3-8-1-5" transform="matrix(1 0 -.69772 .71637 0 0)" x="680.01" y="1415.1" width="44.362" height="23.49" fill="#392b1a"/>
  </g>
- <g id="g5311" transform="matrix(1.2021 0 0 1.0987 503.71 -646.89)">
+ <g id="g5311" transform="matrix(1.2093 0 0 1.0987 505.27 -646.89)">
   <g id="g5146-0-10" transform="matrix(.29463 0 0 .29463 -314.51 677.21)">
    <g id="g5196-1">
     <g id="g5201-4">
-     <rect id="rect4579-5-3-2-0-9-4-2-3-4-2" transform="matrix(1 0 -.70549 .70872 0 0)" x="1251.1" y="1554.2" width="180.13" height="95.472" fill="#555"/>
+     <rect id="rect4579-5-3-2-0-9-4-2-3-4-2" transform="matrix(1 0 -.70549 .70872 0 0)" x="1251.1" y="1554.2" width="180.13" height="95.472" fill="#b1b1b1"/>
      <rect id="rect4579-5-5-2-16-3" transform="matrix(.70148 -.71269 0 1 0 0)" x="381.11" y="1440.8" width="96.458" height="45.109" fill="#646464"/>
-     <rect id="rect4579-5-2-9-6" x="86.904" y="1169.2" width="180.43" height="45.109" fill="#191919"/>
+     <rect id="rect4579-5-2-9-6" x="86.904" y="1169.2" width="180.43" height="45.109" fill="#686868"/>
     </g>
    </g>
   </g>
-  <g id="g5146-0" transform="matrix(.29463 0 0 .29463 -308.51 657.92)">
-   <g id="g5196">
+  <g id="g5146-0" transform="matrix(.29463 0 0 .29463 -308.51 657.92)" fill="#686868">
+   <g id="g5196" fill="#686868">
     <g id="g5201">
-     <rect id="rect4579-5-3-2-0-9-4-2-3-4" transform="matrix(1 0 -.70549 .70872 0 0)" x="1251" y="1591" width="180.25" height="58.699" fill="#555"/>
-     <rect id="rect4579-5-5-2-16" transform="matrix(.70148 -.71269 0 1 0 0)" x="381.11" y="1440.8" width="67.427" height="44.783" fill="#646464"/>
-     <rect id="rect4579-5-2-9" x="86.904" y="1169.2" width="180.43" height="45.109" fill="#191919"/>
+     <rect id="rect4579-5-3-2-0-9-4-2-3-4" transform="matrix(1 0 -.70549 .70872 0 0)" x="1251" y="1591" width="180.25" height="58.699" fill="#b1b1b1"/>
+     <rect id="rect4579-5-5-2-16" transform="matrix(.70148 -.71269 0 1 0 0)" x="381.11" y="1440.8" width="67.427" height="44.783" fill="#686868"/>
+     <rect id="rect4579-5-2-9" x="86.904" y="1169.2" width="180.43" height="45.109" fill="#686868"/>
     </g>
    </g>
   </g>
-  <g id="g5146-0-1" transform="matrix(.29463 0 0 .29463 -302.51 638.63)">
-   <g id="g5196-5">
+  <g id="g5146-0-1" transform="matrix(.29463 0 0 .29463 -302.51 638.63)" fill="#686868">
+   <g id="g5196-5" fill="#686868">
     <g id="g5201-1">
-     <rect id="rect4579-5-3-2-0-9-4-2-3-4-1" transform="matrix(1 0 -.70549 .70872 0 0)" x="1251.5" y="1610.7" width="179.7" height="39.03" fill="#555"/>
-     <rect id="rect4579-5-5-2-16-4" transform="matrix(.70148 -.71269 0 1 0 0)" x="381.11" y="1440.8" width="38.397" height="44.783" fill="#646464"/>
-     <rect id="rect4579-5-2-9-2" x="86.904" y="1169.2" width="180.43" height="45.109" fill="#191919"/>
+     <rect id="rect4579-5-3-2-0-9-4-2-3-4-1" transform="matrix(1 0 -.70549 .70872 0 0)" x="1251.5" y="1610.7" width="179.7" height="39.03" fill="#b1b1b1"/>
+     <rect id="rect4579-5-5-2-16-4" transform="matrix(.70148 -.71269 0 1 0 0)" x="381.11" y="1440.8" width="38.397" height="44.783" fill="#686868"/>
+     <rect id="rect4579-5-2-9-2" x="86.904" y="1169.2" width="180.43" height="45.109" fill="#686868"/>
     </g>
    </g>
   </g>
  </g>
  <g id="g5396" transform="translate(553.69 -586.64)">
-  <g>
-   <rect id="rect5315-3" x="-333.36" y="1033.2" width="58.485" height="43.631" fill="#191919"/>
-   <rect id="rect5315-3-5" transform="matrix(.69402 -.71996 0 1 0 0)" x="-396.06" y="748.07" width="31.133" height="43.631" fill="#3a3a3a"/>
-   <rect id="rect5315-3-8" transform="matrix(1 0 -.69772 .71637 0 0)" x="672.95" y="1411.3" width="58.485" height="30.968" fill="#555"/>
+  <g id="g916">
+   <rect id="rect5315-3" x="-333.36" y="1033.2" width="58.485" height="43.631" fill="#686868"/>
+   <rect id="rect5315-3-5" transform="matrix(.69402 -.71996 0 1 0 0)" x="-396.06" y="748.07" width="31.133" height="43.631" fill="#919191"/>
+   <rect id="rect5315-3-8" transform="matrix(1 0 -.69772 .71637 0 0)" x="672.95" y="1411.3" width="58.485" height="30.968" fill="#b1b1b1"/>
   </g>
   <rect id="rect5315-3-8-1" transform="matrix(1 0 -.69772 .71637 0 0)" x="680.01" y="1415.1" width="44.362" height="23.49" fill="#392b1a"/>
  </g>

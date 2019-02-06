@@ -36,7 +36,7 @@
   z-index: 2;
 }
 
-BuildingPiece {
+BldgPart {
   align-items: end;
   display: grid;
   width: 100%;
@@ -47,130 +47,158 @@ BuildingPiece {
 
 
 //Lot Areas
-.area--lot-1{
+.lot--1{
   grid-area: buildingLotArea1;
 }
 
-.area--lot-2{
+.lot--2{
   grid-area: buildingLotArea2;
 }
 
-.area--lot-3{
+.lot--3{
   grid-area: buildingLotArea3;
 }
 
-//Placeholder lot images
-.type--example-placeholder-1{
+.placeholder--example-1{
   background-image: $source-lot--1;
 }
 
-.type--example-placeholder-2{
+.placeholder--example-2{
   background-image: $source-lot--2;
 }
 
-.type--example-placeholder-3{
+.placeholder--example-3{
   background-image: $source-lot--3;
 }
 
-.type--user-placeholder-1{
+.placeholder--user-1{
   background-image: $user-lot--1;
 }
 
-.type--user-placeholder-2{
+.placeholder--user-2{
   background-image: $user-lot--2;
 }
 
-.type--user-placeholder-3{
+.placeholder--user-3{
   background-image: $user-lot--3;
 }
 
-.type--zone-vacant{
+.zone--vacant{
   background-image: $blank--zone;
 }
 
-.type--zone-house{
+.zone--house{
   background-image: $house--zone;
 }
 
-.type--zone-office{
+.zone--office{
   background-image: $office--zone;
 }
 
-.type--base-brick{
+.foundation--brick{
   background-image: $base__brick;
 }
 
-.type--base-stone{
+.foundation--concrete{
   background-image: $base__gray;
 }
 
-.type--stairs-brick{
+.foundation--glass{
+  background-image: $base__empty;
+}
+
+.stairs--brick{
   background-image: $stairs__brick;
 }
 
-.type--stairs-stone{
+.stairs--concrete{
   background-image: $stairs__gray;
 }
 
-.type--main-house-red{
+.main--glass{
+  background-image: $empty--main;
+}
+
+.main--house-red{
   background-image: $house--main__red;
 }
 
-.type--main-house-green{
+.main--house-green{
   background-image: $house--main__green;
 }
 
-.type--main-house-blue{
+.main--house-blue{
   background-image: $house--main__blue;
 }
 
-.type--main-office-red{
+.main--office-red{
   background-image: $office--main__red;
 }
 
-.type--main-office-green{
+.main--office-green{
   background-image: $office--main__green;
 }
 
-.type--main-office-blue{
+.main--office-blue{
   background-image: $office--main__blue;
 }
 
-.type--roof-house-red{
+.roof--glass{
+  background-image: $empty--roof;
+}
+
+.roof--house-red{
   background-image: $house--roof__red;
 }
 
-.type--roof-house-green{
+.roof--house-green{
   background-image: $house--roof__green;
 }
 
-.type--roof-house-blue{
+.roof--house-blue{
   background-image: $house--roof__blue;
 }
 
-.type--roof-office-red{
+.roof--office-red{
   background-image: $office--roof__red;
 }
 
-.type--roof-office-green{
+.roof--office-green{
   background-image: $office--roof__green;
 }
 
-.type--roof-office-blue{
+.roof--office-blue{
   background-image: $office--roof__blue;
 }
 
-.type--decoration-flowers{
+.decor--flowers{
   background-image: $accessory--flowers;
 }
 
-.type--decoration-graffiti{
+.decor--graffiti{
   background-image: $accessory--graffiti;
 }
 
-.type--roof-office-blue{
-  background-image: $office--roof__blue;
+.decor--cactii{
+  background-image: $accessory--cactii;
 }
+
+.decor--logo{
+  background-image: $accessory--logo;
+}
+
+.decor--damage{
+  background-image: $accessory--hole;
+}
+
+.decor--trees{
+  background-image: $accessory--trees;
+}
+
+.decor--vines{
+  background-image: $accessory--vines;
+}
+
 
 
 
