@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import WorldContainer from './WorldContainer';
 import MenuContainer from './MenuContainer';
-import '../styles/app.scss';
 
 class MainContent extends Component {
   render() {

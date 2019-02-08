@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import '../styles/app.scss';
 import carWhite from '../images/car--white.svg';
 import carOrange from '../images/car--orange.svg';
 import truckBrown from '../images/truck--brown.svg';

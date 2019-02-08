@@ -39,9 +39,43 @@
   z-index: 10;
 }
 
-h2#levelMarkerText{
-  font-size: calc(2vh + 2vw);
-  text-shadow: 0 0.1em 0.4em #344d7c;
+.world--level-marker-text{
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 11%;
+  font-size: calc(1.15vh + 1.15vw);
+  text-shadow: 0 0.1em 0.4em #1a2946;
+}
+
+.world--time-text{
+  line-height: 1.25;
+  padding: 0.5em;
+  background-color: #00000030;
+  box-shadow: 0 0.1em 0.4em #00000040;
+  font-size: calc(1vh + 1vw);
+  text-shadow: 0 0 0.5em #000000AF;
+  color: #f8c8c8;
+  position: absolute;
+  top: 11%;
+  right: 2%;
+  border-radius: 0.2em;
+}
+
+.world--score-text{
+  line-height: 1.25;
+  padding: 0.5em;
+  background-color: #00000030;
+  box-shadow: 0 0.1em 0.4em #00000040;
+  font-size: calc(1vh + 1vw);
+  text-shadow: 0 0 0.5em #000000AF;
+  color: rgb(223, 255, 204);
+  position: absolute;
+  top: 11%;
+  left: 2%;
+  border-radius: 0.2em;
 }
 
 .world--vehicle-container{
@@ -124,11 +158,25 @@ h2#levelMarkerText{
     -webkit-max-width: 50%;
     max-width: 50vw;
   }
+
+  .world--level-marker-text{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 50%;
+  }
+
+  .world--time-text{
+    right: 52%;
+  }
+
+  .world--score-text{
+    left: 2%;
+  }
 }
 
 @media (max-width: 1200px){
-  body{
-    position: fixed;
-  }
+  
 }
 

@@ -14,7 +14,7 @@
   <g id="foundationBlock" transform="translate(-341.22 -443.72)">
    <g id="g5430" transform="translate(-53.033 22.728)">
     <g id="g7426" transform="translate(391.94 425.27)">
-     <rect id="rect4579-5-3-2-0-9-4-2-3-0" transform="matrix(1 0 -.70549 .70872 0 0)" x="1155" y="1367.9" width="180.13" height="95.472" fill="#b1b1b1"/>
+     <rect id="rect4579-5-3-2-0-9-4-2-3-0" transform="matrix(1 0 -.70549 .70872 0 0)" x="1155" y="1367.9" width="180.13" height="95.472" fill="#2e2e2e"/>
      <rect id="foundationWallNorth" x="189.97" y="924.38" width="180.43" height="45.109" fill="#686868"/>
      <rect id="foundationWallWest" transform="matrix(.70148 -.71269 0 1 0 0)" x="174.36" y="1117.4" width="96.458" height="45.109" fill="#919191"/>
      <rect id="foundationWallEast" transform="matrix(.70148 -.71269 0 1 0 0)" x="431.58" y="1300.7" width="96.458" height="45.109" fill="#919191"/>
@@ -22,6 +22,5 @@
     </g>
    </g>
   </g>
-  <g id="mainHouseBlock" transform="translate(10.38 -188.27)"></g>
  </g>
 </svg>

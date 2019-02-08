@@ -11,10 +11,10 @@
   </rdf:RDF>
  </metadata>
  <g id="g5153" transform="translate(73.049 -340.75)">
-  <rect id="rect4579-5-3-2-0-9" transform="matrix(1 0 -.70549 .70872 0 0)" x="718.52" y="856.01" width="180.13" height="95.472" fill="#d3b3aa"/>
+  <rect id="rect4579-5-3-2-0-9" transform="matrix(1 0 -.7059 .70831 0 0)" x="719.3" y="856.5" width="180.35" height="95.534" fill="#e0ada6" stroke-width="1.0009"/>
   <g id="g5709">
-   <rect id="rect4579-5-5-4" transform="matrix(.70711 -.70711 0 1 0 0)" x="321.58" y="901.72" width="95.69" height="90.217" fill="#b88576"/>
-   <rect id="rect4579-5-3" x="46.955" y="674.33" width="180.43" height="90.217" fill="#a96b59"/>
+   <rect id="rect4579-5-5-4" transform="matrix(.70711 -.70711 0 1 0 0)" x="321.57" y="901.72" width="95.69" height="90.217" fill="#cb776b"/>
+   <rect id="rect4579-5-3" x="46.955" y="674.33" width="180.43" height="90.213" fill="#974135" stroke-width=".99999"/>
    <g id="g7597" fill="#8ae4e4" fill-opacity=".68605" stroke="#35362b" stroke-width="5">
     <rect id="rect5589" x="62.109" y="689.71" width="41.681" height="62.138"/>
     <rect id="rect5589-6" x="175.07" y="686.8" width="38.768" height="62.138"/>

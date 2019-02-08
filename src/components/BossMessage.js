@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import '../styles/app.scss';
 import boss from '../images/boss.svg';
 import { advanceLevel } from '../actions/actions';
 import { connect } from 'react-redux';
@@ -14,13 +13,18 @@ class BossMessage extends Component {
     this.handleClick = this.handleClick.bind(this);
   }
 
-  onAdvanceLevel(level) {
-    this.props.onAdvanceLevel(level);
+  onAdvanceLevel(theLevel, theTime, theScore, theHighScore) {
+    this.props.onAdvanceLevel(theLevel, theTime, theScore, theHighScore);
   }
 
   handleClick(e) {
     e.preventDefault();
-    this.onAdvanceLevel(this.props.level);
+    if (!this.props.gameOver){
+      this.onAdvanceLevel(this.props.level, this.props.timeRemaining,this.props.score, this.props.highScore);
+    }else{
+      this.onAdvanceLevel(999, this.props.timeRemaining,this.props.score, this.props.highScore);
+    }
+   
   }
 
 
@@ -30,11 +34,11 @@ class BossMessage extends Component {
       <div className="menu--boss-message-container">
         <div className="menu--boss-message__text-container">
           <div className="menu--boss-message__text">
-            <div dangerouslySetInnerHTML={{ __html: this.props.message }} />
+            <div dangerouslySetInnerHTML={{ __html: this.props.bossMessage }} />
           </div>
-          <button
+            <button
               style={this.props.proceedButton}
-              onClick={this.handleClick}>CONTINUE</button>
+              onClick={this.handleClick}>BEGIN</button>
         </div>
         <div className="menu--boss-message__boss-container">
           <img src={boss} className="menu--boss-message__boss" alt="The Boss" />
@@ -52,7 +56,12 @@ const mapActionsToProps = {
 
 const mapStateToProps = state => ({
   level: state.level,
-  proceedButton: state.proceedButton
+  bossMessage: state.bossMessage,
+  proceedButton: state.proceedButton,
+  timeRemaining: state.timeRemaining,
+  score: state.score,
+  gameOver: state.gameOver,
+  highScore: state.highScore
 });
 
 export default connect(mapStateToProps, mapActionsToProps)(BossMessage);

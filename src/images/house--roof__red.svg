@@ -1,33 +1,120 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
-<svg id="svg8" width="500" height="500" version="1.1" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
- <metadata id="metadata5">
-  <rdf:RDF>
-   <cc:Work rdf:about="">
-    <dc:format>image/svg+xml</dc:format>
-    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:title/>
-   </cc:Work>
-  </rdf:RDF>
- </metadata>
- <g id="layer1" transform="translate(-2.7777 -568.91)">
-  <g id="houseRoof" transform="translate(510.09,11.776)">
-   <g id="g6069" transform="translate(-82.828,127.52)">
-    <g id="g6472" transform="translate(67.029,147.33)">
-     <g id="g9110" transform="translate(-58.589,-94.954)">
-      <rect id="roofHousePorchTop" transform="matrix(1 0 -.70549 .70872 0 0)" x="394.19" y="906.83" width="180.13" height="95.472" fill="#974135"/>
-      <path id="path4705-1-8" transform="matrix(.59528 0 0 .34369 -3.98 464.58)" d="m-254.29 255.74 151.55 262.5-303.11-1e-5z" fill="#6e6744" fill-opacity=".84593"/>
-      <g>
-       <path id="roofHouseOuterTriangle" transform="matrix(.59236 0 0 .34369 -50.888 510.83)" d="m-254.29 255.74 151.55 262.5-303.11-1e-5z" fill="#682d25"/>
-       <path id="roofHouseInnerTriangle" transform="matrix(.39827 0 0 .23108 -100.24 558.41)" d="m-254.29 255.74 151.55 262.5-303.11-1e-5z" fill="#3b2f2f"/>
-       <g id="roofHouseTop" fill="#563c38">
-        <rect id="rect4579-5-3-5-1-3" transform="matrix(.7105 .70369 -.71641 .69767 0 0)" x="288.39" y="501.01" width="151.67" height="115.28"/>
-        <rect id="rect6161" transform="rotate(44.634)" x="270.33" y="501.37" width="8.2143" height="252.14"/>
-       </g>
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg8"
+   width="500"
+   height="500"
+   version="1.1"
+   viewBox="0 0 500 500"
+   sodipodi:docname="house--roof__red.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <defs
+     id="defs23134" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1916"
+     inkscape:window-height="2020"
+     id="namedview23132"
+     showgrid="false"
+     inkscape:zoom="2.6700352"
+     inkscape:cx="254.49432"
+     inkscape:cy="250"
+     inkscape:window-x="-11"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="roofHouseTop" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     transform="translate(-2.7777 -568.91)">
+    <g
+       id="houseRoof"
+       transform="translate(510.09,11.776)">
+      <g
+         id="g6069"
+         transform="translate(-82.828,127.52)">
+        <g
+           id="g6472"
+           transform="translate(67.029,147.33)">
+          <g
+             id="g9110"
+             transform="translate(-58.589,-94.954)">
+            <rect
+               id="roofHousePorchTop"
+               transform="matrix(1 0 -.70549 .70872 0 0)"
+               x="394.19"
+               y="906.83"
+               width="180.13"
+               height="95.472"
+               fill="#974135" />
+            <path
+               id="path4705-1-8"
+               transform="matrix(.59528 0 0 .34369 -3.98 464.58)"
+               d="m-254.29 255.74 151.55 262.5-303.11-1e-5z"
+               fill="#6e6744"
+               fill-opacity=".84593" />
+            <g
+               id="g23124">
+              <path
+                 id="roofHouseOuterTriangle"
+                 transform="matrix(.59236 0 0 .34369 -50.888 510.83)"
+                 d="m-254.29 255.74 151.55 262.5-303.11-1e-5z"
+                 fill="#682d25" />
+              <path
+                 id="roofHouseInnerTriangle"
+                 transform="matrix(.39827 0 0 .23108 -100.24 558.41)"
+                 d="m-254.29 255.74 151.55 262.5-303.11-1e-5z"
+                 fill="#3b2f2f" />
+              <g
+                 id="roofHouseTop"
+                 fill="#563c38">
+                <rect
+                   id="rect4579-5-3-5-1-3"
+                   transform="matrix(.7105 .70369 -.71641 .69767 0 0)"
+                   x="288.39"
+                   y="501.01"
+                   width="151.67"
+                   height="115.28"
+                   style="fill:#492828;fill-opacity:1" />
+                <rect
+                   id="rect6161"
+                   transform="rotate(44.634)"
+                   x="270.33"
+                   y="501.37"
+                   width="8.2143"
+                   height="252.14"
+                   style="fill:#492828;fill-opacity:1" />
+              </g>
+            </g>
+          </g>
+        </g>
       </g>
-     </g>
     </g>
-   </g>
   </g>
- </g>
 </svg>

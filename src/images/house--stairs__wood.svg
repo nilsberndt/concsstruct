@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg8" width="500" height="500" version="1.1" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs id="defs845">
+  <pattern id="pattern11431" patternTransform="matrix(0 -2.6259 11.81 0 148.85 461.97)" xlink:href="#Strips1_2"/>
+  <pattern id="pattern11239" patternTransform="matrix(0 2.4583 9.7267 0 100.9 364.64)" xlink:href="#Strips1_2"/>
+  <pattern id="Strips1_2" width="3" height="1" patternTransform="translate(0) scale(10)" patternUnits="userSpaceOnUse">
+   <rect id="rect5731" y="-.5" width="1" height="2"/>
+  </pattern>
+  <pattern id="pattern11239-7" patternTransform="matrix(0 2.4583 9.7267 0 223.29 365.06)" xlink:href="#Strips1_2-7"/>
+  <pattern id="Strips1_2-7" width="3" height="1" patternTransform="translate(0) scale(10)" patternUnits="userSpaceOnUse">
+   <rect id="rect5731-5" y="-.5" width="1" height="2"/>
+  </pattern>
+  <pattern id="pattern11260" patternTransform="matrix(.060666 2.7373 -21.871 .48472 361.92 576.11)" xlink:href="#Strips1_2-8"/>
+  <pattern id="Strips1_2-8" width="3" height="1" patternTransform="translate(0) scale(10)" patternUnits="userSpaceOnUse">
+   <rect id="rect5731-51" y="-.5" width="1" height="2"/>
+  </pattern>
+  <pattern id="pattern11260-2" patternTransform="matrix(.060666 2.7373 -21.871 .48472 536.39 700.46)" xlink:href="#Strips1_2-8-1"/>
+  <pattern id="Strips1_2-8-1" width="3" height="1" patternTransform="translate(0) scale(10)" patternUnits="userSpaceOnUse">
+   <rect id="rect5731-51-6" y="-.5" width="1" height="2"/>
+  </pattern>
+  <pattern id="pattern11431-6" patternTransform="matrix(0 -2.6259 11.81 0 156.05 441.16)" xlink:href="#Strips1_2-6"/>
+  <pattern id="Strips1_2-6" width="3" height="1" patternTransform="translate(0) scale(10)" patternUnits="userSpaceOnUse">
+   <rect id="rect5731-1" y="-.5" width="1" height="2"/>
+  </pattern>
+  <pattern id="pattern11431-2" patternTransform="matrix(0 -2.6259 11.81 0 163.26 419.97)" xlink:href="#Strips1_2-5"/>
+  <pattern id="Strips1_2-5" width="3" height="1" patternTransform="translate(0) scale(10)" patternUnits="userSpaceOnUse">
+   <rect id="rect5731-16" y="-.5" width="1" height="2"/>
+  </pattern>
+ </defs>
+ <metadata id="metadata5">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g>
+  <rect id="rect5315-3-3" x="97.94" y="446.56" width="58.485" height="43.631" fill="#5a3717"/>
+  <rect id="rect5315-3-5-5" transform="matrix(.69402 -.71996 0 1 0 0)" x="225.39" y="608.85" width="31.133" height="43.631" fill="#976335"/>
+  <rect id="rect5315-3-8-8" transform="matrix(1 0 -.69772 .71637 0 0)" x="532.88" y="592.39" width="58.485" height="30.968" fill="#c68d5c"/>
+  <rect id="foundationWallEast-7" transform="matrix(.70148 -.71269 0 1 0 0)" x="223" y="605.5" width="30.789" height="43.179" fill="url(#pattern11260)" opacity=".5"/>
+  <rect id="rect4579-5-3-2-0-9-4-2-3-4-2" transform="matrix(1 0 -.7366 .67633 0 0)" x="674.45" y="670.71" width="63.797" height="32.386" fill="#c68d5c" stroke-width=".34661"/>
+ </g>
+ <rect id="rect4579-5-5-2-16-3" transform="matrix(.73279 -.68046 0 1 0 0)" x="300.66" y="680.23" width="32.703" height="14.602" fill="#646464" stroke-width=".33129"/>
+ <rect id="rect4579-5-2-9-6" x="156.42" y="475.53" width="63.904" height="14.602" fill="#5a3717" stroke-width=".3386"/>
+ <rect id="rect4579-5-3-2-0-9-4-2-3-4" transform="matrix(1 0 -.7366 .67633 0 0)" x="658.54" y="651.85" width="63.84" height="19.912" fill="#c68d5c" stroke-width=".34661"/>
+ <rect id="rect4579-5-5-2-16" transform="matrix(.73279 -.68046 0 1 0 0)" x="310.51" y="665.73" width="22.861" height="14.497" fill="#646464" stroke-width=".33129"/>
+ <rect id="rect4579-5-2-9" x="163.63" y="454.34" width="63.904" height="14.602" fill="#5a3717" stroke-width=".3386"/>
+ <rect id="rect4579-5-3-2-0-9-4-2-3-4-1" transform="matrix(1 0 -.7366 .67633 0 0)" x="642.85" y="627.2" width="63.645" height="13.24" fill="#c68d5c" stroke-width=".34661"/>
+ <rect id="rect4579-5-5-2-16-4" transform="matrix(.73279 -.68046 0 1 0 0)" x="320.35" y="651.23" width="13.018" height="14.497" fill="#646464" stroke-width=".33129"/>
+ <g>
+  <rect id="rect4579-5-2-9-2" x="170.84" y="433.14" width="63.904" height="14.602" fill="#5a3717" stroke-width=".3386"/>
+  <rect id="rect4579-5-2-9-6-1-2" x="163.63" y="454.34" width="63.904" height="14.602" fill="url(#pattern11431-6)" opacity=".5" stroke-width=".3386"/>
+  <rect id="rect5315-3" x="220.33" y="446.56" width="58.485" height="43.631" fill="#5a3717"/>
+  <rect id="rect5315-3-5" transform="matrix(.69402 -.71996 0 1 0 0)" x="401.74" y="735.81" width="31.133" height="43.631" fill="#976335"/>
+  <rect id="rect4579-5-2-9-6-1-5" x="170.84" y="433.14" width="63.904" height="14.602" fill="url(#pattern11431-2)" opacity=".5" stroke-width=".3386"/>
+  <rect id="rect5315-3-8" transform="matrix(1 0 -.69772 .71637 0 0)" x="655.27" y="592.39" width="58.485" height="30.968" fill="#c68d5c"/>
+  <rect id="rect5315-3-8-1" transform="matrix(1 0 -.69772 .71637 0 0)" x="662.33" y="596.19" width="44.362" height="23.49" fill="#352212"/>
+  <g id="g8661" transform="translate(-51.423 100.71)" fill="#352212">
+   <rect id="rect5315-3-8-1-4" transform="matrix(1 0 -.69772 .71637 0 0)" x="493.28" y="455.55" width="44.362" height="23.49" fill="#352212"/>
+  </g>
+  <rect id="foundationWallSouth-8" x="97.943" y="446.15" width="58.488" height="43.596" fill="url(#pattern11239)" opacity=".5"/>
+  <rect id="foundationWallSouth-8-8" x="220.33" y="446.58" width="58.488" height="43.596" fill="url(#pattern11239-7)" opacity=".5"/>
+  <rect id="foundationWallEast-7-4" transform="matrix(.70148 -.71269 0 1 0 0)" x="397.48" y="729.84" width="30.789" height="43.179" fill="url(#pattern11260-2)" opacity=".5"/>
+  <rect id="rect4579-5-2-9-6-1" x="156.43" y="475.14" width="63.904" height="14.602" fill="url(#pattern11431)" opacity=".5" stroke-width=".3386"/>
+ </g>
+</svg>

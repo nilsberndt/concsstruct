@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import LevelMarker from '../components/LevelMarker';
 import BuildingRows from '../components/BuildingRows';
 import Vehicles from '../components/Vehicles';
-import '../styles/building.scss';
 import { connect } from 'react-redux';
 
 class WorldContainer extends Component {
@@ -15,10 +14,22 @@ class WorldContainer extends Component {
       completeStyle = "";
     }
 
+    var gamePhase = "APPRENTICE";
+    if (this.props.level > 5) {
+      gamePhase = "MASTER";
+    };
+    if (this.props.level === 0 || this.props.levelComplete){
+      gamePhase = "";
+    }
+
     return (
       <div className="world--container">
         {completeStyle}
-        <LevelMarker text={this.props.levelMarkerText} />
+        <LevelMarker 
+            text={this.props.levelMarkerText}
+            theScore={this.props.score}
+            theTime={this.props.timeRemaining}
+            phase={gamePhase} />
         <BuildingRows
           exampleRow={this.props.exampleRow}
           userRow={this.props.userRow} />
@@ -29,10 +40,13 @@ class WorldContainer extends Component {
 }
 
 const mapStateToProps = state => ({
+  level: state.level,
   exampleRow: state.exampleRow,
   userRow: state.userRow,
   levelMarkerText: state.levelMarkerText,
-  levelComplete: state.levelComplete
+  levelComplete: state.levelComplete,
+  score: state.score,
+  timeRemaining: state.timeRemaining
 });
 
 export default connect(mapStateToProps)(WorldContainer);

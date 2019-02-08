@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import '../styles/app.scss';
-import { updateBlueprint, completeLevel } from '../actions/actions';
+import { updateBlueprint, completeLevel, addScore } from '../actions/actions';
 import { connect } from 'react-redux';
+import { globalTimeout } from './CountdownTimer';
+
 
 class Blueprint extends Component {
 
@@ -10,29 +11,50 @@ class Blueprint extends Component {
 
     this.onCompleteLevel = this.onCompleteLevel.bind(this);
     this.onUpdateBlueprint = this.onUpdateBlueprint.bind(this);
+    this.onAddScore = this.onAddScore.bind(this);
+    this.handleKeyPress = this.handleKeyPress.bind(this);
   }
 
 
+
   onUpdateBlueprint(event) {
-    this.props.onUpdateBlueprint(event.target.value.toString());
-    console.log(this.props.levelComplete);
-    if (event.target.value.trim().replace(/[\n\f\r\t]/g, "") === this.props.exampleRow.trim().replace(/[\n\f\r\t]/g, "")
+    const updateString = event.target.value.toString();
+    const cleanString = updateString.replace(
+      // eslint-disable-next-line
+      /(script|input|span|textarea|video|link|embed|data|audio|doctype|DOCTYPE|img|bldgpart|Bldgpart|div|button|document|href|iframe|(\<a)|html|body|head|(\<i))/gm,
+      "_INVALID_ ");
+
+    this.props.onUpdateBlueprint(cleanString);
+    if (cleanString.trim().replace(/[\n\f\r\t]/g, "") === this.props.exampleRow.trim().replace(/[\n\f\r\t]/g, "")
       && !this.props.levelComplete) {
       setTimeout(() => this.onCompleteLevel(this.props.level), 200);
     }
   }
 
-  onCompleteLevel(level) {
-    this.props.onCompleteLevel(level);
+  handleKeyPress = (e) => {
+    if (e.key === "PageUp" && !this.props.levelComplete) {
+      this.onCompleteLevel(this.props.level);
+    }
   }
 
+  onAddScore(theScore, theLevel, theTime, theHighScore){
+    this.props.onAddScore(theScore, theLevel, theTime, theHighScore);
+  }
 
+  onCompleteLevel(level) {
+    clearTimeout(globalTimeout);
+    this.props.onCompleteLevel(level);
+    if (level > 5 && !this.props.gameOver){
+      this.props.onAddScore(this.props.score, this.props.level, this.props.timeRemaining, this.props.highScore);
+    }
+  }
 
 
   render() {
     return (
       <div className="menu--blueprint-container">
         <textarea
+          onKeyDown={this.handleKeyPress} 
           className="menu--blueprint__textarea"
           value={this.props.userRow}
           rows="7"
@@ -49,12 +71,17 @@ const mapStateToProps = state => ({
   level: state.level,
   userRow: state.userRow,
   exampleRow: state.exampleRow,
-  levelComplete: state.levelComplete
+  levelComplete: state.levelComplete,
+  score: state.score,
+  timeRemaining: state.timeRemaining,
+  highScore: state.highScore,
+  gameOver: state.gameOver
 });
 
 const mapActionsToProps = {
   onUpdateBlueprint: updateBlueprint,
-  onCompleteLevel: completeLevel
+  onCompleteLevel: completeLevel,
+  onAddScore: addScore
 };
 
 export default connect(mapStateToProps, mapActionsToProps)(Blueprint);

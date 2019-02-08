@@ -25,14 +25,14 @@
   grid-area: sourceRowArea;
   grid-template-areas:
   ". buildingLotArea1 buildingLotArea2 buildingLotArea3 .";
-  grid-template-columns: 8% 30% 30% 30% 2%;
+  grid-template-columns: 15% 25% 25% 25% 10%;
   z-index: 1;
 }
 .building--row__user{
   grid-area: userRowArea;
   grid-template-areas:
   ". buildingLotArea1 buildingLotArea2 buildingLotArea3 .";
-  grid-template-columns: 2% 30% 30% 30% 8%;
+  grid-template-columns: 10% 25% 25% 25% 15%;
   z-index: 2;
 }
 
@@ -59,6 +59,7 @@ BldgPart {
   grid-area: buildingLotArea3;
 }
 
+//Placeholder Images (not currently used)
 .placeholder--example-1{
   background-image: $source-lot--1;
 }
@@ -83,18 +84,21 @@ BldgPart {
   background-image: $user-lot--3;
 }
 
-.zone--vacant{
+//Grounds
+.ground--vacant{
   background-image: $blank--zone;
 }
 
-.zone--house{
+.ground--grass{
   background-image: $house--zone;
 }
 
-.zone--office{
+.ground--asphalt{
   background-image: $office--zone;
 }
 
+
+//Foundations
 .foundation--brick{
   background-image: $base__brick;
 }
@@ -103,10 +107,15 @@ BldgPart {
   background-image: $base__gray;
 }
 
-.foundation--glass{
-  background-image: $base__empty;
+.foundation--marble{
+  background-image: $base__marble;
 }
 
+.foundation--wood{
+  background-image: $base__wood;
+}
+
+//Stairs
 .stairs--brick{
   background-image: $stairs__brick;
 }
@@ -115,9 +124,15 @@ BldgPart {
   background-image: $stairs__gray;
 }
 
-.main--glass{
-  background-image: $empty--main;
+.stairs--marble{
+  background-image: $stairs__marble;
 }
+
+.stairs--wood{
+  background-image: $stairs__wood;
+}
+
+//Mains
 
 .main--house-red{
   background-image: $house--main__red;
@@ -143,9 +158,12 @@ BldgPart {
   background-image: $office--main__blue;
 }
 
-.roof--glass{
-  background-image: $empty--roof;
+.main--office-glass{
+  background-image: $empty--main;
 }
+
+
+//Roofs
 
 .roof--house-red{
   background-image: $house--roof__red;
@@ -171,6 +189,12 @@ BldgPart {
   background-image: $office--roof__blue;
 }
 
+.roof--office-glass{
+  background-image: $empty--roof;
+}
+
+
+//Decor
 .decor--flowers{
   background-image: $accessory--flowers;
 }
