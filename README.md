@@ -6,7 +6,7 @@
 
 The app was built with [`react`](https://github.com/facebook/react) and [`redux`](https://github.com/reduxjs/redux), utilizing both for state storage and real-time updating features.
 
-### Some additional notable development features on display:
+### Notable development features on display:
 
 * **Modern CSS-`grid` layout for both the overall app/UI and the `class`-based placement of player-elements**
 * **SVG/CSS animation with both programmatic in-line and external styles applied, all original artwork**
@@ -17,6 +17,7 @@ The app was built with [`react`](https://github.com/facebook/react) and [`redux`
 
 - [x] Procedurally generated *expert* levels
 - [x] LocalStorage high score system
-- [ ] Google Firebase cloud integration for level data and global high score save
+- [x] Google Firebase cloud integration for global high score save
+- [ ] Clean, refactor, additional testing
 
 If you have any questions or comments on the app, feel free to reach out to me directly: nilsberndt@gmail.com
