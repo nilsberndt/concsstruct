@@ -4,10 +4,8 @@
 
 *Con**CSS**truct* is an `HTML` / `CSS`-based coding puzzle game where players build structures by completing code *"blueprints"* with the correct class styles to match the required building characteristics.
 
-The app was built with [`react`](https://github.com/facebook/react) and [`redux`](https://github.com/reduxjs/redux), utilizing both for state storage and real-time updating features.
-
 ### Notable development features on display:
-
+* **Built entirely with [`react`](https://github.com/facebook/react) and [`redux`](https://github.com/reduxjs/redux) for state storage and real-time updating features**
 * **Modern CSS-`grid` layout for both the overall app/UI and the `class`-based placement of player-elements**
 * **SVG/CSS animation with both programmatic in-line and external styles applied, all original artwork**
 * **Responsive, non-*px*-based design**
