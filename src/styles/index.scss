@@ -15,6 +15,10 @@ html {
   text-align: center;
 }
 
+h1{
+  font-size: calc(4vh + 4vw);
+}
+
 h2 {
   text-align: center;
 }
@@ -26,9 +30,25 @@ h3 {
 
 h4 {
   color: white;
-  letter-spacing: 0.2em;
   text-align: center;
   border-bottom: solid 0.1em;
+}
+
+h5{
+  padding: 0.2em;
+  color: rgb(255, 142, 142);
+}
+
+input{
+  font-size: calc(3vw + 3vh);
+  height: calc(4vw + 4vh);
+  width: calc(9vw + 9vh);
+  background-color: transparent;
+  border: solid white;
+  border-radius: 0.2em;
+  padding: 0.5em;
+  color: white;
+  font-family: monospace;
 }
 
 a:link{

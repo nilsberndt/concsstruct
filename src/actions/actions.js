@@ -4,7 +4,11 @@ import {
     ADVANCE_LEVEL,
     DECREASE_TIMER,
     INCREASE_SCORE,
+    SET_HIGH_SCORE,
     APPRENTICE_MODE,
+    TOGGLE_HIGH_SCORE_WINDOW,
+    SET_INITIALS,
+    SET_FB_INITIALS,
     MASTER_MODE } from './actionTypes';
 
 import * as buildingData from '../data/buildingParts';
@@ -16,6 +20,35 @@ export function updateBlueprint(userRow) {
   return {
     type: UPDATE_BLUEPRINT,
     userRow
+  };
+}
+
+export function setInitials(initials, fbInitials) {
+  return {
+    type: SET_INITIALS,
+    userInitials: initials,
+    firebaseInitials: fbInitials
+  };
+}
+
+export function setFBInitials(fbInitials) {
+  return {
+    type: SET_FB_INITIALS,
+    firebaseInitials: fbInitials
+  };
+}
+
+export function setHighScore(newHigh) {
+  return {
+    type: SET_HIGH_SCORE,
+    highScore: newHigh
+  };
+}
+
+export function toggleHighScoreWindow(current) {
+  return {
+    type: TOGGLE_HIGH_SCORE_WINDOW,
+    highScoreWindow: !current
   };
 }
 
@@ -42,8 +75,8 @@ export function countdown(currentTime) {
   };
 }
 
-export function addScore(currentScore, currentLevel, currentTime, currentHighScore) {
-  var newScore = currentScore + (currentLevel * 100) + currentTime;
+export function addScore(currentScore, currentLevel, currentTime) {
+  var newScore = currentScore + (currentLevel * 10) + currentTime;
   return {
     type: INCREASE_SCORE,
     score: newScore
@@ -59,7 +92,7 @@ export function completeLevel(level) {
     case 0:
       return {
         type: COMPLETE_LEVEL,
-        bossMessage: "<h2>Good job!</h2><br>I guess we'll keep you on the crew for now... Get ready for the next job!<br><br>",
+        bossMessage: "<h2>Good job!</h2><br>I guess you've earned a spot on my crew... Get ready for the next job!<br><br>",
         levelComplete: true,
         levelMarkerText: newLevelMarker,
         proceedButton: {
@@ -150,7 +183,6 @@ export function advanceLevel(currentLevel, currentTime, currentScore, currentHig
   var newHighScore = currentHighScore;
   if (currentScore > currentHighScore){
     newHighScore = currentScore;
-    window.localStorage.setItem('highScore', currentScore.toString());
   }
   switch (currentLevel) {
     case 0:

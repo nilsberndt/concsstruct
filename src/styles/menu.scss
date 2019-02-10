@@ -93,6 +93,31 @@ textarea.menu--blueprint__textarea{
   height: 100%;
 }
 
+.menu--high-score-container{
+  width: 60%;
+  height: 75%;
+  position: absolute;
+  top: 12%;
+  left: 20%;
+  background-color: brown;
+  z-index: 20;
+  box-shadow: 0 0.3em 0.5em #00000080;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.menu--high-score-button{
+  color: white;
+  font-size: calc(1vh + 1vw);
+  height: calc(4vh + 4vw);
+  width: calc(4vh + 4vw);
+  border-radius: 50%;
+  border: solid white;
+  background-color: none;
+}
+
+
 @media (orientation: landscape) {
   textarea.menu--blueprint__textarea{
     width: 90%;

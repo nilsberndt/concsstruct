@@ -34,8 +34,7 @@ class CountdownTimer extends Component {
     if(this.props.running && !this.props.levelComplete){
       globalTimeout = setTimeout(() => this.onCountdown(
           this.props.timeRemaining), 
-          (15000 / (10+(this.props.level-5))));
-      console.log("SPEED", (6000 / (15000 / (10+(this.props.level-5)))));
+          (15000 / (10+(this.props.level-5)*2)));
     };
   }
 
@@ -46,6 +45,11 @@ class CountdownTimer extends Component {
   onCountdown(theTime){
     this.props.onCountdown(theTime);
   }
+
+  componentWillUnmount() {
+    clearInterval(this.interval);
+  }
+
 }
 
 const mapActionsToProps = {

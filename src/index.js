@@ -7,6 +7,7 @@ import * as serviceWorker from './utils/serviceWorker';
 import { createStore } from 'redux';
 import indexReducer from './reducers/index-reducer';
 
+
 const store = createStore(
   indexReducer,
   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()

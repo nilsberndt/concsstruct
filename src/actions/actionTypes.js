@@ -11,3 +11,11 @@ export const INCREASE_SCORE = 'score:addScore';
 export const APPRENTICE_MODE = 'MODE:apprenticeMode';
 
 export const MASTER_MODE = 'MODE:masterMode';
+
+export const SET_HIGH_SCORE = 'highScore:setHighScore';
+
+export const TOGGLE_HIGH_SCORE_WINDOW = 'highScoreWindow:toggleHighScoreWindow'
+
+export const SET_INITIALS = 'userInitials:setInitials'
+
+export const SET_FB_INITIALS = 'firebaseInitials:setFBInitials'

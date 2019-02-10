@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { updateBlueprint, completeLevel, addScore } from '../actions/actions';
+import { setHighScore, updateBlueprint, completeLevel, addScore } from '../actions/actions';
 import { connect } from 'react-redux';
 import { globalTimeout } from './CountdownTimer';
 
@@ -12,7 +12,8 @@ class Blueprint extends Component {
     this.onCompleteLevel = this.onCompleteLevel.bind(this);
     this.onUpdateBlueprint = this.onUpdateBlueprint.bind(this);
     this.onAddScore = this.onAddScore.bind(this);
-    this.handleKeyPress = this.handleKeyPress.bind(this);
+    this.onSetHighScore = this.onSetHighScore.bind(this);
+    //this.handleKeyPress = this.handleKeyPress.bind(this);
   }
 
 
@@ -31,14 +32,19 @@ class Blueprint extends Component {
     }
   }
 
-  handleKeyPress = (e) => {
+  //Dev testing cheat code for level skipping 
+  /*handleKeyPress = (e) => {
     if (e.key === "PageUp" && !this.props.levelComplete) {
       this.onCompleteLevel(this.props.level);
     }
+  }*/
+
+  onAddScore(theScore, theLevel, theTime){
+    this.props.onAddScore(theScore, theLevel, theTime);
   }
 
-  onAddScore(theScore, theLevel, theTime, theHighScore){
-    this.props.onAddScore(theScore, theLevel, theTime, theHighScore);
+  onSetHighScore(theHighScore){
+    this.props.onSetHighScore(theHighScore);
   }
 
   onCompleteLevel(level) {
@@ -54,7 +60,7 @@ class Blueprint extends Component {
     return (
       <div className="menu--blueprint-container">
         <textarea
-          onKeyDown={this.handleKeyPress} 
+          //onKeyDown={this.handleKeyPress} 
           className="menu--blueprint__textarea"
           value={this.props.userRow}
           rows="7"
@@ -81,7 +87,8 @@ const mapStateToProps = state => ({
 const mapActionsToProps = {
   onUpdateBlueprint: updateBlueprint,
   onCompleteLevel: completeLevel,
-  onAddScore: addScore
+  onAddScore: addScore,
+  onSetHighScore: setHighScore
 };
 
 export default connect(mapStateToProps, mapActionsToProps)(Blueprint);

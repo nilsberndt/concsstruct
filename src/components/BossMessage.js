@@ -38,7 +38,7 @@ class BossMessage extends Component {
           </div>
             <button
               style={this.props.proceedButton}
-              onClick={this.handleClick}>BEGIN</button>
+              onClick={this.handleClick}>START</button>
         </div>
         <div className="menu--boss-message__boss-container">
           <img src={boss} className="menu--boss-message__boss" alt="The Boss" />

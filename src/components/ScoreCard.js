@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
+
 class ScoreCard extends Component {
 
   render() {
@@ -23,3 +24,4 @@ const mapStateToProps = state => ({
 });
 
 export default connect(mapStateToProps)(ScoreCard);
+

@@ -7,7 +7,7 @@ import { connect } from 'react-redux';
 class WorldContainer extends Component {
 
   render() {
-    let completeStyle = "";
+    var completeStyle = "";
     if (this.props.levelComplete) {
       completeStyle = (<div className='world--container-dark'></div>);
     } else {
@@ -18,9 +18,12 @@ class WorldContainer extends Component {
     if (this.props.level > 5) {
       gamePhase = "MASTER";
     };
-    if (this.props.level === 0 || this.props.levelComplete){
+    if (this.props.level === 0){
+      gamePhase = "TRAINING";
+    };
+    if (this.props.levelComplete){
       gamePhase = "";
-    }
+    };
 
     return (
       <div className="world--container">

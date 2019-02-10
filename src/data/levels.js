@@ -1,4 +1,6 @@
 
+
+
 /* eslint-disable */
 
 /* note: eslint is disabled here due to create-react-app configuration limitations 
@@ -39,10 +41,10 @@ Now we need you to prepare <code>lot--2</code> with some <code>grass</code>. The
 I'll need you to finish up the house on <code>lot--2</code> on your own.<br><br> \
 You should be able to figure it out by using <code>lot--1</code> \
 as an example. Pay attention to the order that you add <code>BldgPart</code>s - \
-they need to be stacked correctly.<br><br>We build from the ground <b>up</b>. The order goes:<br>\
-<code>ground</code>&#062;<code>foundation</code>&#062;<code>stairs</code>&#062;<code>main</code>\
-&#062;<code>roof</code>&#062;(<code>decor</code>)... the <code>decor</code>ation is optional. \
-some buildings may require it later on, but not now. Make sure to paint the house the right colors. \
+they need to be stacked correctly.<br><br>We build from the ground up. The order goes:<br>\
+<code>ground</code> &#062; <code>foundation</code> &#062; <code>stairs</code> &#062; <code>main</code> \
+&#062; <code>roof</code> &#062; (<code>decor</code>) ... the <code>decor</code>ation is optional. \
+Some buildings may require it later on, but not now. Make sure to paint the house the right colors. \
 We use <code>red</code>, <code>green</code>, and <code>blue</code> paint!",
 
 //LEVEL 3 BOSS MESSAGE
@@ -70,13 +72,15 @@ modern <code>office-glass</code> main and roof styles!\
 <br><br>If you can complete this job, you're ready for anything!",
 
 //EXPERT LEVEL BOSS MESSAGE
-"<h2>You're on your own now!</h2>Don't let me down! \
-Here are some helpful keywords in case you forgot your training:<br>\
-<code>grass</code> <code>asphalt</code> <code>concrete</code> <code>brick</code> \
-<code>marble</code> <code>wood</code> <code>house</code> <code>office</code> \
-<code>ground</code> <code>foundation</code> <code>stairs</code> <code>main</code> \
-<code>roof</code> <code>red</code> <code>green</code> <code>blue</code> <code>glass</code> \
-<code>damage</code> <code>graffiti</code> <code>flowers</code> <code>trees</code><br><br>\
+"<h2>You're on your own now!</h2>\
+Here are some helpful keywords in case you forgot your training:<br><br>\
+Parts:  <code>ground</code> <code>foundation</code> <code>stairs</code> <code>main</code> \
+<code>roof</code> <code>decor</code><br>\
+Ground Types:  <code>vacant</code> <code>grass</code> <code>asphalt</code><br>\
+Foundation / Stairs Materials:  <code>concrete</code> <code>brick</code> <code>marble</code> <code>wood</code><br>\
+Main / Roof Types:  <code>house</code> <code>office</code><br>\
+Paint Colors / Materials:  <code>red</code> <code>green</code> <code>blue</code> <code>glass</code><br>\
+(Decor)ations:  <code>damage</code> <code>graffiti</code> <code>flowers</code> <code>trees</code><br><br>\
 Go for the high score!",
 ];
 
@@ -90,7 +94,8 @@ export const EXAMPLE_ROW =
 <BldgPart class='lot--1 foundation--concrete'></BldgPart>\n\
 <BldgPart class='lot--1 stairs--concrete'></BldgPart>\n\
 <BldgPart class='lot--1 main--house-green'></BldgPart>\n\
-<BldgPart class='lot--1 roof--house-green'></BldgPart>\n\n\
+<BldgPart class='lot--1 roof--house-green'></BldgPart>\n\
+\n\
 <BldgPart class='lot--2 ground--grass'></BldgPart>\n\
 <BldgPart class='lot--2 foundation--brick'></BldgPart>\n",
 
@@ -99,7 +104,8 @@ export const EXAMPLE_ROW =
 <BldgPart class='lot--1 foundation--concrete'></BldgPart>\n\
 <BldgPart class='lot--1 stairs--concrete'></BldgPart>\n\
 <BldgPart class='lot--1 main--house-green'></BldgPart>\n\
-<BldgPart class='lot--1 roof--house-green'></BldgPart>\n\n\
+<BldgPart class='lot--1 roof--house-green'></BldgPart>\n\
+\n\
 <BldgPart class='lot--2 ground--grass'></BldgPart>\n\
 <BldgPart class='lot--2 foundation--brick'></BldgPart>\n\
 <BldgPart class='lot--2 stairs--concrete'></BldgPart>\n\
@@ -180,7 +186,8 @@ export const USER_ROW =
 <BldgPart class='lot--1 foundation--concrete'></BldgPart>\n\
 <BldgPart class='lot--1 stairs--concrete'></BldgPart>\n\
 <BldgPart class='lot--1 main--house-green'></BldgPart>\n\
-<BldgPart class='lot--1 roof--house-green'></BldgPart>\n\n\
+<BldgPart class='lot--1 roof--house-green'></BldgPart>\n\
+\n\
 <BldgPart class='lot--2 ground--vacant'></BldgPart>\n",
 
 //LEVEL 2 USER ROW
@@ -188,7 +195,8 @@ export const USER_ROW =
 <BldgPart class='lot--1 foundation--concrete'></BldgPart>\n\
 <BldgPart class='lot--1 stairs--concrete'></BldgPart>\n\
 <BldgPart class='lot--1 main--house-green'></BldgPart>\n\
-<BldgPart class='lot--1 roof--house-green'></BldgPart>\n\n\
+<BldgPart class='lot--1 roof--house-green'></BldgPart>\n\
+\n\
 <BldgPart class='lot--2 ground--grass'></BldgPart>\n\
 <BldgPart class='lot--2 foundation--brick'></BldgPart>\n",
 
@@ -223,12 +231,22 @@ export const USER_ROW =
 <BldgPart class='lot--3 main--office-green'></BldgPart>\n\
 <BldgPart class='lot--3 decor--graffiti'></BldgPart>\n",
 
-//LEVEL 5 EXAMPLE ROW
+//LEVEL 5 USER ROW
 "<BldgPart class='lot--1 ground--vacant'></BldgPart>\n\
 \n\
 <BldgPart class='lot--2 ground--vacant'></BldgPart>\n\
 \n\
 <BldgPart class='lot--3 ground--vacant'></BldgPart>\n",
+
+//MASTER MODE USER ROW
+"<!--You can copy & paste the below 'template' to help you out!-->\n\
+\n\
+<BldgPart class='lot--1 ground--grass'></BldgPart>\n\
+<BldgPart class='lot--1 foundation--wood'></BldgPart>\n\
+<BldgPart class='lot--1 stairs--wood'></BldgPart>\n\
+<BldgPart class='lot--1 main--house-green'></BldgPart>\n\
+<BldgPart class='lot--1 roof--house-green'></BldgPart>\n\
+<BldgPart class='lot--1 decor--trees'></BldgPart>\n"
 ];
 
 
